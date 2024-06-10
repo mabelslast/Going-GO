@@ -9,3 +9,12 @@ Go Programming Notes
 
   ```go fmt``` for instance contains functions for printing formatted output and scanning input.
   
+- Package main is special, it defines a standalone executable program, not a library.
+- Within package main, the main function is special, it defines the start of the program - where execution of the program begins.
+- The import declaration, like ```go import fmt``` tells the compiler what packages are needed by the source file.
+- Only exactly what packages are needed for the program must be imported or the program will not run.
+- Declarations
+  1. Import declarations must follow the package declaration. After that, the declaration of functions, variables, constants and types -> keywords func, var, const, and type.
+- The ```os``` package provides functions and other values for dealing with the operating system in a platform independent fashion.
+- Command-line arguments are available to a program in a variable named Args that is part of the ```os``` package, thus its name anywhere outside of the ```os``` package is ```os.Args```.
+- 
